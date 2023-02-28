@@ -1,26 +1,25 @@
 {
-    "name": "node-api4-guided",
-    "version": "1.0.0",
-    "description": "Guided project for **Node API** module 4.",
-    "main": "index.js",
-    "scripts": {
-        "server": "nodemon index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/BloomInstituteOfTechnology/node-api4-guided.git"
-    },
-    "bugs": {
-        "url": "https://github.com/BloomInstituteOfTechnology/node-api4-guided/issues"
-    },
-    "homepage": "https://github.com/BloomInstituteOfTechnology/node-api4-guided#readme",
-    "dependencies": {
-        "@vscode/sqlite3": "5.0.7",
-        "express": "^4.17.3",
-        "helmet": "^5.0.2",
-        "knex": "^1.0.3"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.15"
-    }
+  "name": "api4-guided",
+  "version": "1.0.0",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BloomInstituteOfTechnology/node-api4-guided.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BloomInstituteOfTechnology/node-api4-guided/issues"
+  },
+  "homepage": "https://github.com/BloomInstituteOfTechnology/node-api4-guided#readme",
+  "dependencies": {
+    "@vscode/sqlite3": "5.0.7",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "knex": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
